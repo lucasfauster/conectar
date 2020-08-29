@@ -1,31 +1,32 @@
-.form-login {
+.form-selecao {
     display: grid;
-    grid-template-rows: 0.3fr 1.7fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1px 1px;
-    grid-template-areas: "title" "form";
+    grid-template-areas: "title title" "btn1 btn2";
 
     width: 90%;
     margin: 0 auto;
     padding: 6rem;
     background-color: rgb(172, 170, 168);
 }
-.cel {
-    margin-left: 33%;
-}
+
 .title-container {
     grid-area: title;
     text-align: center;
+
 }
 
-.form-container {
-    grid-area: form;
-    display: center;
+.btn1{
+    grid-area: btn1;
     margin-top: 1rem;
-}
-
-.button-container {
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.btn2{
+    grid-area: btn2;
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }

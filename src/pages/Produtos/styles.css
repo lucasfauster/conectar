@@ -1,0 +1,10 @@
+.input-valor {
+  display: flex;
+  align-self: center;
+}
+
+.btn-add {
+  display: center;
+  align-items: center;
+  justify-content: center;
+}

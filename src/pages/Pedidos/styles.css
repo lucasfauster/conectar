@@ -1,14 +1,17 @@
 .pedidos-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 0.2fr 2.6fr;
-    gap: 1px 1px;
+    grid-template-rows: 0.04fr 0.06fr 2.9fr;
+    gap: 1rem 1rem;
     grid-template-areas: "pesquisa pesquisa pesquisa" "botão botão botão" "card1 card2 card3";
 }
 
 .pesquisa { grid-area: pesquisa; }
 
-.botão { grid-area: botão; }
+.botão { 
+    grid-area: botão; 
+    margin: 0 auto;
+}
 
 .card1 { grid-area: card1; }
 

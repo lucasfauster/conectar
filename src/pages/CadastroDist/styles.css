@@ -1,0 +1,35 @@
+.form-login {
+  display: grid;
+  grid-template-rows: 0.3fr 1.7fr;
+  gap: 1px 1px;
+  grid-template-areas: "title" "form";
+
+  width: 90%;
+  margin: 0 auto;
+  padding: 6rem;
+  background-color: rgb(172, 170, 168);
+}
+.cel {
+  margin-left: 33%;
+}
+
+.endereco {
+  margin-left: 25%;
+}
+.title-container {
+  grid-area: title;
+  text-align: center;
+}
+
+.form-container {
+  grid-area: form;
+  display: center;
+  margin-top: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}

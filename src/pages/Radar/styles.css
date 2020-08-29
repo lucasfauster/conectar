@@ -1,0 +1,29 @@
+.map-container {
+  width: 90%;
+  text-align: center;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: rgb(172, 170, 168);
+
+  display: grid;
+  grid-template-rows: 0.2fr 1.6fr 0.2fr;
+  gap: 1px 1px;
+  grid-template-areas: "title" "map" "form";
+}
+
+.header {
+  grid-area: title;
+}
+
+.map {
+  grid-area: map;
+}
+
+.form-valor {
+  grid-area: form;
+  margin-top: 1rem;
+}
+
+.input-valor {
+  float: right;
+}
